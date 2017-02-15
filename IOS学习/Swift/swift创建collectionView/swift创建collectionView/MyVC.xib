@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyVC" customModule="swift创建collectionView" customModuleProvider="target">
+            <connections>
+                <outlet property="col" destination="WZ6-RX-cM7" id="GVV-Fz-2G3"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="WZ6-RX-cM7">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="168" id="FqS-md-FPf"/>
+                    </constraints>
+                    <collectionViewLayout key="collectionViewLayout" id="0ee-jp-s3P" customClass="MyLayout" customModule="swift创建collectionView" customModuleProvider="target"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="FqS-md-FPf"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="vod-6n-zgN"/>
+                        <outlet property="delegate" destination="-1" id="DnJ-RD-dg5"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="WZ6-RX-cM7" secondAttribute="bottom" id="clH-ss-YkF"/>
+                <constraint firstItem="WZ6-RX-cM7" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="dBF-Co-JuC"/>
+                <constraint firstItem="WZ6-RX-cM7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="nf9-q4-yU3"/>
+                <constraint firstAttribute="trailing" secondItem="WZ6-RX-cM7" secondAttribute="trailing" id="vQN-im-2MY"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="524" y="287"/>
+        </view>
+    </objects>
+</document>

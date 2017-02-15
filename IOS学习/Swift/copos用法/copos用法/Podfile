@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '8.0'
+
+target 'copos用法' do
+
+pod 'SDWebImage'
+pod 'FMDB'
+
+end

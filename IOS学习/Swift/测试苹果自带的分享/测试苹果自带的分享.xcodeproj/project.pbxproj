@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F896C4C91D2BB3B30071A914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F896C4C81D2BB3B30071A914 /* AppDelegate.swift */; };
+		F896C4CB1D2BB3B30071A914 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F896C4CA1D2BB3B30071A914 /* ViewController.swift */; };
+		F896C4CE1D2BB3B30071A914 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F896C4CC1D2BB3B30071A914 /* Main.storyboard */; };
+		F896C4D01D2BB3B30071A914 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F896C4CF1D2BB3B30071A914 /* Assets.xcassets */; };
+		F896C4D31D2BB3B30071A914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F896C4D11D2BB3B30071A914 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F896C4C51D2BB3B30071A914 /* 测试苹果自带的分享.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "测试苹果自带的分享.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F896C4C81D2BB3B30071A914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F896C4CA1D2BB3B30071A914 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F896C4CD1D2BB3B30071A914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F896C4CF1D2BB3B30071A914 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F896C4D21D2BB3B30071A914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F896C4D41D2BB3B40071A914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F896C4C21D2BB3B30071A914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F896C4BC1D2BB3B20071A914 = {
+			isa = PBXGroup;
+			children = (
+				F896C4C71D2BB3B30071A914 /* 测试苹果自带的分享 */,
+				F896C4C61D2BB3B30071A914 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F896C4C61D2BB3B30071A914 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F896C4C51D2BB3B30071A914 /* 测试苹果自带的分享.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F896C4C71D2BB3B30071A914 /* 测试苹果自带的分享 */ = {
+			isa = PBXGroup;
+			children = (
+				F896C4C81D2BB3B30071A914 /* AppDelegate.swift */,
+				F896C4CA1D2BB3B30071A914 /* ViewController.swift */,
+				F896C4CC1D2BB3B30071A914 /* Main.storyboard */,
+				F896C4CF1D2BB3B30071A914 /* Assets.xcassets */,
+				F896C4D11D2BB3B30071A914 /* LaunchScreen.storyboard */,
+				F896C4D41D2BB3B40071A914 /* Info.plist */,
+			);
+			path = "测试苹果自带的分享";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F896C4C41D2BB3B30071A914 /* 测试苹果自带的分享 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F896C4D71D2BB3B40071A914 /* Build configuration list for PBXNativeTarget "测试苹果自带的分享" */;
+			buildPhases = (
+				F896C4C11D2BB3B30071A914 /* Sources */,
+				F896C4C21D2BB3B30071A914 /* Frameworks */,
+				F896C4C31D2BB3B30071A914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "测试苹果自带的分享";
+			productName = "测试苹果自带的分享";
+			productReference = F896C4C51D2BB3B30071A914 /* 测试苹果自带的分享.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F896C4BD1D2BB3B20071A914 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ld;
+				TargetAttributes = {
+					F896C4C41D2BB3B30071A914 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F896C4C01D2BB3B30071A914 /* Build configuration list for PBXProject "测试苹果自带的分享" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F896C4BC1D2BB3B20071A914;
+			productRefGroup = F896C4C61D2BB3B30071A914 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F896C4C41D2BB3B30071A914 /* 测试苹果自带的分享 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F896C4C31D2BB3B30071A914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F896C4D31D2BB3B30071A914 /* LaunchScreen.storyboard in Resources */,
+				F896C4D01D2BB3B30071A914 /* Assets.xcassets in Resources */,
+				F896C4CE1D2BB3B30071A914 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F896C4C11D2BB3B30071A914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F896C4CB1D2BB3B30071A914 /* ViewController.swift in Sources */,
+				F896C4C91D2BB3B30071A914 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F896C4CC1D2BB3B30071A914 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F896C4CD1D2BB3B30071A914 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F896C4D11D2BB3B30071A914 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F896C4D21D2BB3B30071A914 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F896C4D51D2BB3B40071A914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F896C4D61D2BB3B40071A914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F896C4D81D2BB3B40071A914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "测试苹果自带的分享/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ld.RCIM.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F896C4D91D2BB3B40071A914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "测试苹果自带的分享/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ld.RCIM.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F896C4C01D2BB3B30071A914 /* Build configuration list for PBXProject "测试苹果自带的分享" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F896C4D51D2BB3B40071A914 /* Debug */,
+				F896C4D61D2BB3B40071A914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F896C4D71D2BB3B40071A914 /* Build configuration list for PBXNativeTarget "测试苹果自带的分享" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F896C4D81D2BB3B40071A914 /* Debug */,
+				F896C4D91D2BB3B40071A914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F896C4BD1D2BB3B20071A914 /* Project object */;
+}

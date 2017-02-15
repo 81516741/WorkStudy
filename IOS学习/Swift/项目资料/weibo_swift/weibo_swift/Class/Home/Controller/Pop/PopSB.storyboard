@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Pg2-w9-UcB">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--PopSB-->
+        <scene sceneID="l33-n7-qGt">
+            <objects>
+                <viewController id="Pg2-w9-UcB" customClass="PopSB" customModule="weibo_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Thu-gY-AOG"/>
+                        <viewControllerLayoutGuide type="bottom" id="EoC-Wx-kFB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JvU-Vs-6tz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="popover_background" translatesAutoresizingMaskIntoConstraints="NO" id="Zda-b8-2fQ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="05a-EQ-kgI">
+                                <rect key="frame" x="10" y="35" width="300" height="435"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Pg2-w9-UcB" id="rrE-D3-iGS"/>
+                                    <outlet property="delegate" destination="Pg2-w9-UcB" id="p7a-Yd-Jhl"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="05a-EQ-kgI" secondAttribute="trailing" constant="10" id="91G-aP-9my"/>
+                            <constraint firstItem="Zda-b8-2fQ" firstAttribute="top" secondItem="JvU-Vs-6tz" secondAttribute="top" id="FIa-1d-5v9"/>
+                            <constraint firstItem="Zda-b8-2fQ" firstAttribute="leading" secondItem="JvU-Vs-6tz" secondAttribute="leading" id="bXK-DW-ZTQ"/>
+                            <constraint firstItem="EoC-Wx-kFB" firstAttribute="top" secondItem="05a-EQ-kgI" secondAttribute="bottom" constant="10" id="oEX-Oc-wge"/>
+                            <constraint firstItem="05a-EQ-kgI" firstAttribute="leading" secondItem="JvU-Vs-6tz" secondAttribute="leading" constant="10" id="oTO-4E-GYl"/>
+                            <constraint firstItem="EoC-Wx-kFB" firstAttribute="top" secondItem="Zda-b8-2fQ" secondAttribute="bottom" id="oky-V0-cV8"/>
+                            <constraint firstAttribute="trailing" secondItem="Zda-b8-2fQ" secondAttribute="trailing" id="tjh-y8-dR6"/>
+                            <constraint firstItem="05a-EQ-kgI" firstAttribute="top" secondItem="Thu-gY-AOG" secondAttribute="bottom" constant="15" id="v4x-0L-y2U"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="myTableView" destination="05a-EQ-kgI" id="YlX-pl-Y7Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KUP-sJ-tal" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="323" y="-292"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="popover_background" width="217" height="49"/>
+    </resources>
+</document>

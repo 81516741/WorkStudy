@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="GEp-8w-KXY">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Conversation ListVC-->
+        <scene sceneID="xE4-hi-osw">
+            <objects>
+                <viewController id="FBU-yW-Esf" customClass="LDConversationListVC" customModule="RCIM" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Lg-ee-RRy"/>
+                        <viewControllerLayoutGuide type="bottom" id="Coe-xA-hho"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3rl-9b-m17">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="smK-Vs-X1J">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="ap4-wP-VgA">
+                            <connections>
+                                <segue destination="1ZJ-Ge-WK3" kind="show" id="Ds1-HF-A3g"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="1ZJ-Ge-WK3" kind="push" identifier="chatVC" id="2nx-Q3-edX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lbY-WI-Uye" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1495" y="178"/>
+        </scene>
+        <!--ConversationVC-->
+        <scene sceneID="d5q-QM-LdX">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GAy-Nq-AyP" sceneMemberID="firstResponder"/>
+                <viewController id="1ZJ-Ge-WK3" customClass="LDConversationVC" customModule="RCIM" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VEP-qY-45J"/>
+                        <viewControllerLayoutGuide type="bottom" id="v2u-jK-53X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6gf-o7-iGf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sDi-xu-tf8"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1882" y="167"/>
+        </scene>
+        <!--会话-->
+        <scene sceneID="Q6z-2q-HiZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GEp-8w-KXY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="会话" id="FSP-4s-Sf6"/>
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="wMa-GD-hsP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="FBU-yW-Esf" kind="relationship" relationship="rootViewController" id="6Ew-qR-qH8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="azD-Z4-ZTt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1123" y="167"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Ds1-HF-A3g"/>
+    </inferredMetricsTieBreakers>
+</document>

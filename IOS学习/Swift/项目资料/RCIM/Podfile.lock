@@ -1,0 +1,10 @@
+PODS:
+  - RongCloudIMKit (2.5.0)
+
+DEPENDENCIES:
+  - RongCloudIMKit
+
+SPEC CHECKSUMS:
+  RongCloudIMKit: 3d8473f022c7588db80ef81caf0208e5c2fa4789
+
+COCOAPODS: 0.39.0
