@@ -1,0 +1,30 @@
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var{
+    padding: 0px;
+    margin: 0px;
+}
+
+#headerDiv {
+    text-align: center;
+    margin-top: 100px;
+}
+#headerImg {
+    height: 80px;
+    width: 300px;
+}
+
+#inputDiv {
+    text-align: center;
+}
+#inputDiv .input {
+    outline: none;
+    width: 400px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-top: 30px;
+
+}
+
+#container {
+    text-align: center;
+}

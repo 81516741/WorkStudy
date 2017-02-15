@@ -1,0 +1,3 @@
+rootProject.name = 'LDNet'
+
+include ':app'

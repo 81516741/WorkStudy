@@ -1,0 +1,3 @@
+rootProject.name = 'LingDa1'
+
+include ':app'

@@ -1,0 +1,3 @@
+rootProject.name = 'LD_9GongGe'
+
+include ':app'

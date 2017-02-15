@@ -1,0 +1,22 @@
+{
+  "name": "zeng",
+  "version": "1.0.0",
+  "description": "wode",
+  "main": "package.js",
+  "scripts": {
+    "test": "command"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nil"
+  },
+  "keywords": [
+    "123"
+  ],
+  "author": "123",
+  "license": "123",
+  "dependencies": {
+    "express": "^4.14.0",
+    "utility": "^1.8.0"
+  }
+}

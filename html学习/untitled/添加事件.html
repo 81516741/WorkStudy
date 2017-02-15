@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1 id = 'h1'>点击给你惊喜</h1>
+
+请输入英文字母:<input id = 'input' onchange="myfunction()">
+
+<div onmouseover="over(this)" onmouseout="out(this)" style="background-color: red;width: 120px;height: 20px;color: white;padding: 40px">鼠标移上来</div>
+</body>
+<script>
+    var oldValue;
+    document.getElementById('h1').onclick = function(){showAl()};
+    function showAl()
+    {
+        alert('不要怕');
+    }
+    function myfunction()
+    {
+        var x = document.getElementById('input');
+        x.value = x.value.toUpperCase();
+    }
+
+    function over(obj)
+    {
+        oldValue = obj.innerHTML;
+        obj.innerHTML = '胆子有点大';
+    }
+
+    function out(obj)
+    {
+        obj.innerHTML = oldValue;
+    }
+</script>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "f",
+  "version": "1.1.1",
+  "description": "f",
+  "main": "f",
+  "scripts": {
+    "test": "fsda"
+  },
+  "repository": {
+    "type": "git",
+    "url": "fd"
+  },
+  "keywords": [
+    "fsda"
+  ],
+  "author": "fdsa",
+  "license": "fdsa",
+  "dependencies": {
+    "async": "^2.1.1",
+    "cheerio": "^0.22.0",
+    "superagent": "^2.3.0"
+  }
+}

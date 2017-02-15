@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<button onclick="message()">点击执行函数</button>
+
+<script>
+    var x = '';
+    function message()
+    {
+        try
+        {
+            aaalert('hahah');
+        }
+        catch(error)
+        {
+            x = '这里是捕捉到的错误\n';
+            x += '错误的描述' + error.message;
+            alert(x)
+        }
+    }
+</script>
+</body>
+</html>

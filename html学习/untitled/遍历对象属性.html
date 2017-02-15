@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<p id = 'pp'>点击下面一段遍历对象属性</p>
+<button onclick="myClick()">点击我</button>
+
+<script>
+    function myClick()
+    {
+        var x ;
+        var p = {name:'jack',age:13,height:160};
+        var tex;
+        for(x in p )
+        {
+            tex += p[x];
+        }
+        var para  = document.createElement('h1');
+        var node = document.createTextNode('你不要怕哦');
+        para.appendChild(node)
+        document.getElementById('pp').appendChild(para);
+
+        alert(window.innerWidth)
+//        window.location.href = 'https://www.baidu.com'
+//        window.location.assign('https://www.baidu.com');
+        var names = ['nann','nanah'];
+        names.map(function (name) {
+           console.log(name)
+        })
+    }
+</script>
+</body>
+</html>

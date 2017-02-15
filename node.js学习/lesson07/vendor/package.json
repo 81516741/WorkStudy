@@ -1,0 +1,21 @@
+{
+  "name": "fd",
+  "version": "1.1.1",
+  "description": "fdsa",
+  "main": "fdsa",
+  "scripts": {
+    "test": "mocha-phantomjs index.html --ssl-protocol=any --ignore-ssl-errors=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "fad"
+  },
+  "keywords": [
+    "fdsa"
+  ],
+  "author": "fsda",
+  "license": "fasd",
+  "devDependencies": {
+    "mocha-phantomjs": "^4.1.0"
+  }
+}

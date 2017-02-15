@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="build/react.js"></script>
+    <script src="build/react-dom.js"></script>
+    <script src="build/browser.min.js"></script>
+</head>
+<body>
+<div id="example" ></div>
+
+<script type="text/babel">
+   var Hi = React.createClass({
+        render:function(){
+            return <div>Hi,{this.props.name}</div>
+        }
+   })
+
+   ReactDOM.render(
+    <Hi name = '蓉蓉'/>,
+    document.getElementById('example')
+   );
+</script>
+</body>
+</html>

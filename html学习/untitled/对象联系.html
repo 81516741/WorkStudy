@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <p>这是什么东西</p>
+</head>
+<body>
+<script>
+   var person = new Object()
+    person.firstname = 'good';
+    person.age = 14;
+    person.address = '中国';
+//    document.getElementsByTagName('p')[0].appendChild('<div>这是个容器<br></div>');
+    document.write(person.age + person.address+'<br>');
+
+    var dog = {age:12,owner:'xiaomimg'}
+    document.write('狗的年龄是：'+dog.age+'主人是'+dog.owner);
+
+   var father =new people(50,170,'father');
+   document.write('<br>'+father.age + father.name + father.height);
+//   father.altershow();
+   father.altershow();
+    function people(age,height,name)
+    {
+        this.age = age;
+        this.height = height;
+        this.name = name;
+        this.altershow = altershow;
+        function altershow()
+        {
+            alert('看到了吧');
+        }
+    }
+</script>
+</body>
+</html>

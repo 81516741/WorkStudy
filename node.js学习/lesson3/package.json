@@ -1,0 +1,23 @@
+{
+  "name": "fa",
+  "version": "1.0.0",
+  "description": "sf",
+  "main": "fasd",
+  "scripts": {
+    "test": "fad"
+  },
+  "repository": {
+    "type": "git",
+    "url": "fda"
+  },
+  "keywords": [
+    "fads"
+  ],
+  "author": "fasd",
+  "license": "fads",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "superagent": "^2.3.0"
+  }
+}

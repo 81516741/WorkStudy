@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div class="container">
+    <div class="img">
+        <img src="img/img_01.jpg" class="first">
+        <img src="img/img_01.jpg">
+        <img src="img/img_01.jpg">
+        <img src="img/img_01.jpg">
+    </div>
+    <div class="button">
+        <button class="donghua1" style="display: block">你敢点击我吗</button>
+        <button name="donghua2">你点击我试试</button>
+    </div>
+</div>
+</body>
+
+<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $('.container .first').attr('width', '50px');
+    $('.donghua1').click(function(){
+//        $('img').toggle(2000);
+        $('img').slideToggle(2000);
+    });
+</script>
+
+</html>

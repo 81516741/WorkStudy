@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="build/react.js"></script>
+    <script src="build/react-dom.js"></script>
+    <script src="build/browser.min.js"></script>
+</head>
+<body>
+<div id="example" ></div>
+
+<script type="text/babel">
+
+
+var Input = React.createClass({
+
+getInitialState:function(){
+return {value:'默认的值'};
+},
+handleChange:function(event){
+this.setState({value:event.target.value});
+},
+render:function(){
+var value = this.state.value;
+return(
+<div>
+    <input type="text" value={value} onChange={this.handleChange }  />
+    <p style = {{opacity: 0.5,fontSize:'100',color:'green'}}>{value}</p>
+</div>
+);
+
+}
+});
+
+ReactDOM.render(
+<Input/>,
+document.getElementById('example')
+);
+
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <img id = 'icon' src="https://www.baidu.com/img/bd_logo1.png" width="100px" height="100px">
+    <p id = 'p' >这是百度的图片</p>
+    <h1 id = 'h1'>这是标题</h1>
+    <button id = 'btn'>隐藏</button>
+</body>
+<script type="text/javascript">
+    var icon = document.getElementById('icon')
+    var p = document.getElementById('p')
+    var h1 = document.getElementById('h1')
+    var btn = document.getElementById('btn')
+    btn.onclick = function(){
+        if(btn.innerHTML == '隐藏'){
+            icon.style.display = 'none'
+            p.style.display = 'none'
+            h1.style.display = 'none'
+            btn.innerHTML = '显示'
+        }else{
+            icon.style.display = 'inline-block'
+            p.style.display = 'block'
+            h1.style.display = 'block'
+            btn.innerHTML = '隐藏'
+
+        }
+    }
+</script>
+</html>
