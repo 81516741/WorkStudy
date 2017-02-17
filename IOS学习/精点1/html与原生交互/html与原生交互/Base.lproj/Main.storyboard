@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BDP-6E-2Mb">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3gr-G8-vi4">
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="h08-Xc-uTE"/>
+                                </connections>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BlQ-T9-Yne">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="xNj-tN-qbe"/>
+                                </constraints>
+                                <state key="normal" title="跳到协议测试"/>
+                                <connections>
+                                    <action selector="jump:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WDX-Qm-kFD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BlQ-T9-Yne" firstAttribute="centerX" secondItem="3gr-G8-vi4" secondAttribute="centerX" id="2yS-XG-uJA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3gr-G8-vi4" secondAttribute="bottom" id="AFa-ot-eJz"/>
+                            <constraint firstItem="3gr-G8-vi4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KQ6-vr-CoN"/>
+                            <constraint firstItem="3gr-G8-vi4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Kwg-mc-LvS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="BlQ-T9-Yne" secondAttribute="bottom" constant="8" id="UYR-MA-bdK"/>
+                            <constraint firstAttribute="trailing" secondItem="3gr-G8-vi4" secondAttribute="trailing" id="hSp-Wt-xlk"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="5rN-2w-Wc1"/>
+                    <connections>
+                        <outlet property="webView" destination="3gr-G8-vi4" id="wQd-1O-VOp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1055.2" y="108.39580209895054"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="csQ-gh-OQL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BDP-6E-2Mb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qdz-WB-NWB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="a7M-4k-9nY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UTm-9h-Jzr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="108.39580209895054"/>
+        </scene>
+    </scenes>
+</document>

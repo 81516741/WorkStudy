@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <title>Title</title>
+    </head>
+    <body>
+        <p>加载完成后会发出 bridge://myhtml 请求</p>
+        <button id="my_btn">点击可以发出 bridge1://myhtml 请求</button>
+        <button onclick="ocMethod()">这种方式赋值的事件可以直接被原生替换</button>
+        <button onclick="unMethod()">这种方式赋值的事件可以直接被原生替换, 且方法不存</button>
+        <button id="oc_method">这种方式赋值的事件无法直接被原生替换</button>
+        <button id="add_method0">根据id原生就可以添加方法,间接调用原生</button>
+        <button id="add_method">根据id原生就可以添加方法,直接调用原生</button>
+         <button id="oc_method" onclick="alert('nimei')">ios8中的wkweview读取不了js的，这个弹框是内嵌的js</button>
+    </body>
+    <script src="js.js"></script>
+</html>

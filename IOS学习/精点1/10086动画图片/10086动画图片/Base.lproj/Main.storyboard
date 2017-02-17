@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b" translatesAutoresizingMaskIntoConstraints="NO" id="hz5-eB-O9F" userLabel="b">
+                                <rect key="frame" x="135" y="215" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="fSr-ac-9Un"/>
+                                    <constraint firstAttribute="height" constant="50" id="gTX-Ie-76W"/>
+                                </constraints>
+                            </imageView>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fsh-Ky-TCS">
+                                <rect key="frame" x="135" y="215" width="50" height="50"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="f" translatesAutoresizingMaskIntoConstraints="NO" id="LcH-zd-N6m" userLabel="f">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="o17-d8-M9g"/>
+                                            <constraint firstAttribute="width" constant="50" id="tOr-Lq-dPW"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="I7d-ej-gNH"/>
+                                    <constraint firstAttribute="height" priority="750" constant="50" id="OSb-Ij-QZh"/>
+                                    <constraint firstAttribute="width" constant="50" id="Qug-Yt-LK5"/>
+                                    <constraint firstItem="LcH-zd-N6m" firstAttribute="leading" secondItem="fsh-Ky-TCS" secondAttribute="leading" id="ZM7-JQ-kmS"/>
+                                    <constraint firstAttribute="bottom" secondItem="LcH-zd-N6m" secondAttribute="bottom" id="eO0-KI-ALY"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fsh-Ky-TCS" firstAttribute="bottom" secondItem="hz5-eB-O9F" secondAttribute="bottom" id="5cb-0Z-4o9"/>
+                            <constraint firstItem="hz5-eB-O9F" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="UdT-ei-DcY"/>
+                            <constraint firstItem="fsh-Ky-TCS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xdf-db-5LU"/>
+                            <constraint firstItem="hz5-eB-O9F" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="t7f-aA-ID6"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="bImageView" destination="hz5-eB-O9F" id="etr-Kf-gob"/>
+                        <outlet property="fImageView" destination="LcH-zd-N6m" id="kG2-Vt-s23"/>
+                        <outlet property="hConstain" destination="I7d-ej-gNH" id="Q0R-qQ-AB1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="226"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="b" width="120" height="120"/>
+        <image name="f" width="120" height="120"/>
+    </resources>
+</document>
