@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F862EC6A1D34B0A000D2EB82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F862EC691D34B0A000D2EB82 /* main.m */; };
+		F862EC6D1D34B0A000D2EB82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F862EC6C1D34B0A000D2EB82 /* AppDelegate.m */; };
+		F862EC701D34B0A000D2EB82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F862EC6F1D34B0A000D2EB82 /* ViewController.m */; };
+		F862EC731D34B0A000D2EB82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F862EC711D34B0A000D2EB82 /* Main.storyboard */; };
+		F862EC751D34B0A000D2EB82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F862EC741D34B0A000D2EB82 /* Assets.xcassets */; };
+		F862EC781D34B0A000D2EB82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F862EC761D34B0A000D2EB82 /* LaunchScreen.storyboard */; };
+		F862EC811D34B0C600D2EB82 /* MyPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F862EC801D34B0C600D2EB82 /* MyPickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F862EC651D34B0A000D2EB82 /* 时间picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "时间picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F862EC691D34B0A000D2EB82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F862EC6B1D34B0A000D2EB82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F862EC6C1D34B0A000D2EB82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F862EC6E1D34B0A000D2EB82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F862EC6F1D34B0A000D2EB82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F862EC721D34B0A000D2EB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F862EC741D34B0A000D2EB82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F862EC771D34B0A000D2EB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F862EC791D34B0A000D2EB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F862EC7F1D34B0C600D2EB82 /* MyPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPickerView.h; sourceTree = "<group>"; };
+		F862EC801D34B0C600D2EB82 /* MyPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F862EC621D34B0A000D2EB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F862EC5C1D34B0A000D2EB82 = {
+			isa = PBXGroup;
+			children = (
+				F862EC671D34B0A000D2EB82 /* 时间picker */,
+				F862EC661D34B0A000D2EB82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F862EC661D34B0A000D2EB82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F862EC651D34B0A000D2EB82 /* 时间picker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F862EC671D34B0A000D2EB82 /* 时间picker */ = {
+			isa = PBXGroup;
+			children = (
+				F862EC6B1D34B0A000D2EB82 /* AppDelegate.h */,
+				F862EC6C1D34B0A000D2EB82 /* AppDelegate.m */,
+				F862EC6E1D34B0A000D2EB82 /* ViewController.h */,
+				F862EC6F1D34B0A000D2EB82 /* ViewController.m */,
+				F862EC711D34B0A000D2EB82 /* Main.storyboard */,
+				F862EC741D34B0A000D2EB82 /* Assets.xcassets */,
+				F862EC761D34B0A000D2EB82 /* LaunchScreen.storyboard */,
+				F862EC791D34B0A000D2EB82 /* Info.plist */,
+				F862EC681D34B0A000D2EB82 /* Supporting Files */,
+				F862EC7F1D34B0C600D2EB82 /* MyPickerView.h */,
+				F862EC801D34B0C600D2EB82 /* MyPickerView.m */,
+			);
+			path = "时间picker";
+			sourceTree = "<group>";
+		};
+		F862EC681D34B0A000D2EB82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F862EC691D34B0A000D2EB82 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F862EC641D34B0A000D2EB82 /* 时间picker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F862EC7C1D34B0A000D2EB82 /* Build configuration list for PBXNativeTarget "时间picker" */;
+			buildPhases = (
+				F862EC611D34B0A000D2EB82 /* Sources */,
+				F862EC621D34B0A000D2EB82 /* Frameworks */,
+				F862EC631D34B0A000D2EB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "时间picker";
+			productName = "时间picker";
+			productReference = F862EC651D34B0A000D2EB82 /* 时间picker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F862EC5D1D34B0A000D2EB82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ld;
+				TargetAttributes = {
+					F862EC641D34B0A000D2EB82 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F862EC601D34B0A000D2EB82 /* Build configuration list for PBXProject "时间picker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F862EC5C1D34B0A000D2EB82;
+			productRefGroup = F862EC661D34B0A000D2EB82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F862EC641D34B0A000D2EB82 /* 时间picker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F862EC631D34B0A000D2EB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F862EC781D34B0A000D2EB82 /* LaunchScreen.storyboard in Resources */,
+				F862EC751D34B0A000D2EB82 /* Assets.xcassets in Resources */,
+				F862EC731D34B0A000D2EB82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F862EC611D34B0A000D2EB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F862EC811D34B0C600D2EB82 /* MyPickerView.m in Sources */,
+				F862EC701D34B0A000D2EB82 /* ViewController.m in Sources */,
+				F862EC6D1D34B0A000D2EB82 /* AppDelegate.m in Sources */,
+				F862EC6A1D34B0A000D2EB82 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F862EC711D34B0A000D2EB82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F862EC721D34B0A000D2EB82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F862EC761D34B0A000D2EB82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F862EC771D34B0A000D2EB82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F862EC7A1D34B0A000D2EB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F862EC7B1D34B0A000D2EB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F862EC7D1D34B0A000D2EB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "时间picker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ld.RCIM.--picker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F862EC7E1D34B0A000D2EB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "时间picker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ld.RCIM.--picker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F862EC601D34B0A000D2EB82 /* Build configuration list for PBXProject "时间picker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F862EC7A1D34B0A000D2EB82 /* Debug */,
+				F862EC7B1D34B0A000D2EB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F862EC7C1D34B0A000D2EB82 /* Build configuration list for PBXNativeTarget "时间picker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F862EC7D1D34B0A000D2EB82 /* Debug */,
+				F862EC7E1D34B0A000D2EB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F862EC5D1D34B0A000D2EB82 /* Project object */;
+}

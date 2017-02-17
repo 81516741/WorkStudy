@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F80342431CA3837D00C5DF69 /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = F80342341CA3837D00C5DF69 /* NSString+Emoji.m */; };
+		F80342441CA3837D00C5DF69 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F80342361CA3837D00C5DF69 /* UIView+Extension.m */; };
+		F80342451CA3837D00C5DF69 /* LDEmotionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F80342391CA3837D00C5DF69 /* LDEmotionModel.m */; };
+		F80342461CA3837D00C5DF69 /* EmotionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F803423C1CA3837D00C5DF69 /* EmotionCollectionViewCell.m */; };
+		F80342471CA3837D00C5DF69 /* EmotionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F803423D1CA3837D00C5DF69 /* EmotionCollectionViewCell.xib */; };
+		F80342481CA3837D00C5DF69 /* EmotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F803423F1CA3837D00C5DF69 /* EmotionView.m */; };
+		F80342491CA3837D00C5DF69 /* EmotionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80342401CA3837D00C5DF69 /* EmotionView.xib */; };
+		F803424A1CA3837D00C5DF69 /* LDEmotionPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F80342421CA3837D00C5DF69 /* LDEmotionPageView.m */; };
+		F8222F4F1CA26C71003A258C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8222F4E1CA26C71003A258C /* main.m */; };
+		F8222F521CA26C71003A258C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8222F511CA26C71003A258C /* AppDelegate.m */; };
+		F8222F551CA26C71003A258C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8222F541CA26C71003A258C /* ViewController.m */; };
+		F8222F581CA26C71003A258C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8222F561CA26C71003A258C /* Main.storyboard */; };
+		F8222F5A1CA26C71003A258C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8222F591CA26C71003A258C /* Assets.xcassets */; };
+		F8222F5D1CA26C71003A258C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8222F5B1CA26C71003A258C /* LaunchScreen.storyboard */; };
+		F8222F681CA26C71003A258C /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8222F671CA26C71003A258C /* ______Tests.m */; };
+		F8222F731CA26C72003A258C /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8222F721CA26C72003A258C /* ______UITests.m */; };
+		F863EBF21CB4D83500E07B3E /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = F863EBEE1CB4D83500E07B3E /* delete.png */; };
+		F863EBF31CB4D83500E07B3E /* detele_high.png in Resources */ = {isa = PBXBuildFile; fileRef = F863EBEF1CB4D83500E07B3E /* detele_high.png */; };
+		F863EBF41CB4D83500E07B3E /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = F863EBF01CB4D83500E07B3E /* normal.png */; };
+		F863EBF51CB4D83500E07B3E /* selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F863EBF11CB4D83500E07B3E /* selected.png */; };
+		F8F1BA731CA38516008FEFEB /* MJDictionaryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F1BA5D1CA38516008FEFEB /* MJDictionaryCache.m */; };
+		F8F1BA741CA38516008FEFEB /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F1BA601CA38516008FEFEB /* MJExtensionConst.m */; };
+		F8F1BA751CA38516008FEFEB /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F1BA621CA38516008FEFEB /* MJFoundation.m */; };
+		F8F1BA761CA38516008FEFEB /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F1BA641CA38516008FEFEB /* MJProperty.m */; };
+		F8F1BA771CA38516008FEFEB /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F1BA661CA38516008FEFEB /* MJPropertyKey.m */; };
+		F8F1BA781CA38516008FEFEB /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F1BA681CA38516008FEFEB /* MJPropertyType.m */; };
+		F8F1BA791CA38516008FEFEB /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F1BA6A1CA38516008FEFEB /* NSObject+MJClass.m */; };
+		F8F1BA7A1CA38516008FEFEB /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F1BA6C1CA38516008FEFEB /* NSObject+MJCoding.m */; };
+		F8F1BA7B1CA38516008FEFEB /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F1BA6E1CA38516008FEFEB /* NSObject+MJKeyValue.m */; };
+		F8F1BA7C1CA38516008FEFEB /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F1BA701CA38516008FEFEB /* NSObject+MJProperty.m */; };
+		F8F1BA7D1CA38516008FEFEB /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F1BA721CA38516008FEFEB /* NSString+MJExtension.m */; };
+		F8F1BA821CA38B55008FEFEB /* default.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F8F1BA7F1CA38B55008FEFEB /* default.bundle */; };
+		F8F1BA831CA38B55008FEFEB /* emoji.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F8F1BA801CA38B55008FEFEB /* emoji.bundle */; };
+		F8F1BA841CA38B55008FEFEB /* lxh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F8F1BA811CA38B55008FEFEB /* lxh.bundle */; };
+		F8F1BA891CA38B70008FEFEB /* default.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F8F1BA861CA38B70008FEFEB /* default.bundle */; };
+		F8F1BA8A1CA38B70008FEFEB /* emoji.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F8F1BA871CA38B70008FEFEB /* emoji.bundle */; };
+		F8F1BA8B1CA38B70008FEFEB /* lxh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F8F1BA881CA38B70008FEFEB /* lxh.bundle */; };
+		F8F1BA8E1CA39E8E008FEFEB /* LDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F1BA8D1CA39E8E008FEFEB /* LDButton.m */; };
+		F8FF25261CB3BBE4008F6A06 /* EmoticonQQ.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F8FF25251CB3BBE4008F6A06 /* EmoticonQQ.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8222F641CA26C71003A258C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8222F421CA26C71003A258C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8222F491CA26C71003A258C;
+			remoteInfo = "表情包的封装";
+		};
+		F8222F6F1CA26C71003A258C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8222F421CA26C71003A258C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8222F491CA26C71003A258C;
+			remoteInfo = "表情包的封装";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F80342331CA3837D00C5DF69 /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		F80342341CA3837D00C5DF69 /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		F80342351CA3837D00C5DF69 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		F80342361CA3837D00C5DF69 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		F80342381CA3837D00C5DF69 /* LDEmotionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDEmotionModel.h; sourceTree = "<group>"; };
+		F80342391CA3837D00C5DF69 /* LDEmotionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDEmotionModel.m; sourceTree = "<group>"; };
+		F803423B1CA3837D00C5DF69 /* EmotionCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionCollectionViewCell.h; sourceTree = "<group>"; };
+		F803423C1CA3837D00C5DF69 /* EmotionCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionCollectionViewCell.m; sourceTree = "<group>"; };
+		F803423D1CA3837D00C5DF69 /* EmotionCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmotionCollectionViewCell.xib; sourceTree = "<group>"; };
+		F803423E1CA3837D00C5DF69 /* EmotionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionView.h; sourceTree = "<group>"; };
+		F803423F1CA3837D00C5DF69 /* EmotionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionView.m; sourceTree = "<group>"; };
+		F80342401CA3837D00C5DF69 /* EmotionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmotionView.xib; sourceTree = "<group>"; };
+		F80342411CA3837D00C5DF69 /* LDEmotionPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDEmotionPageView.h; sourceTree = "<group>"; };
+		F80342421CA3837D00C5DF69 /* LDEmotionPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDEmotionPageView.m; sourceTree = "<group>"; };
+		F8222F4A1CA26C71003A258C /* 表情包的封装.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "表情包的封装.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8222F4E1CA26C71003A258C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8222F501CA26C71003A258C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8222F511CA26C71003A258C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8222F531CA26C71003A258C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8222F541CA26C71003A258C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8222F571CA26C71003A258C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8222F591CA26C71003A258C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8222F5C1CA26C71003A258C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8222F5E1CA26C71003A258C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8222F631CA26C71003A258C /* 表情包的封装Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "表情包的封装Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8222F671CA26C71003A258C /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		F8222F691CA26C71003A258C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8222F6E1CA26C71003A258C /* 表情包的封装UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "表情包的封装UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8222F721CA26C72003A258C /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		F8222F741CA26C72003A258C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F863EBEE1CB4D83500E07B3E /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		F863EBEF1CB4D83500E07B3E /* detele_high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detele_high.png; sourceTree = "<group>"; };
+		F863EBF01CB4D83500E07B3E /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
+		F863EBF11CB4D83500E07B3E /* selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected.png; sourceTree = "<group>"; };
+		F8F1BA5C1CA38516008FEFEB /* MJDictionaryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDictionaryCache.h; sourceTree = "<group>"; };
+		F8F1BA5D1CA38516008FEFEB /* MJDictionaryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDictionaryCache.m; sourceTree = "<group>"; };
+		F8F1BA5E1CA38516008FEFEB /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		F8F1BA5F1CA38516008FEFEB /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		F8F1BA601CA38516008FEFEB /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		F8F1BA611CA38516008FEFEB /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		F8F1BA621CA38516008FEFEB /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		F8F1BA631CA38516008FEFEB /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		F8F1BA641CA38516008FEFEB /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		F8F1BA651CA38516008FEFEB /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		F8F1BA661CA38516008FEFEB /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		F8F1BA671CA38516008FEFEB /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		F8F1BA681CA38516008FEFEB /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		F8F1BA691CA38516008FEFEB /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		F8F1BA6A1CA38516008FEFEB /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		F8F1BA6B1CA38516008FEFEB /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		F8F1BA6C1CA38516008FEFEB /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		F8F1BA6D1CA38516008FEFEB /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		F8F1BA6E1CA38516008FEFEB /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		F8F1BA6F1CA38516008FEFEB /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		F8F1BA701CA38516008FEFEB /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		F8F1BA711CA38516008FEFEB /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		F8F1BA721CA38516008FEFEB /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		F8F1BA7F1CA38B55008FEFEB /* default.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = default.bundle; sourceTree = "<group>"; };
+		F8F1BA801CA38B55008FEFEB /* emoji.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = emoji.bundle; sourceTree = "<group>"; };
+		F8F1BA811CA38B55008FEFEB /* lxh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = lxh.bundle; sourceTree = "<group>"; };
+		F8F1BA861CA38B70008FEFEB /* default.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = default.bundle; sourceTree = "<group>"; };
+		F8F1BA871CA38B70008FEFEB /* emoji.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = emoji.bundle; sourceTree = "<group>"; };
+		F8F1BA881CA38B70008FEFEB /* lxh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = lxh.bundle; sourceTree = "<group>"; };
+		F8F1BA8C1CA39E8E008FEFEB /* LDButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDButton.h; sourceTree = "<group>"; };
+		F8F1BA8D1CA39E8E008FEFEB /* LDButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDButton.m; sourceTree = "<group>"; };
+		F8FF25251CB3BBE4008F6A06 /* EmoticonQQ.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EmoticonQQ.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8222F471CA26C71003A258C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8222F601CA26C71003A258C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8222F6B1CA26C71003A258C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F80342311CA3837D00C5DF69 /* Emotion */ = {
+			isa = PBXGroup;
+			children = (
+				F863EBED1CB4D83500E07B3E /* Source */,
+				F8F1BA851CA38B70008FEFEB /* EmotionIcons */,
+				F8F1BA5B1CA38516008FEFEB /* MJExtension */,
+				F80342321CA3837D00C5DF69 /* Category */,
+				F80342371CA3837D00C5DF69 /* Model */,
+				F803423A1CA3837D00C5DF69 /* View */,
+			);
+			path = Emotion;
+			sourceTree = "<group>";
+		};
+		F80342321CA3837D00C5DF69 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F80342331CA3837D00C5DF69 /* NSString+Emoji.h */,
+				F80342341CA3837D00C5DF69 /* NSString+Emoji.m */,
+				F80342351CA3837D00C5DF69 /* UIView+Extension.h */,
+				F80342361CA3837D00C5DF69 /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F80342371CA3837D00C5DF69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F80342381CA3837D00C5DF69 /* LDEmotionModel.h */,
+				F80342391CA3837D00C5DF69 /* LDEmotionModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F803423A1CA3837D00C5DF69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F803423E1CA3837D00C5DF69 /* EmotionView.h */,
+				F803423F1CA3837D00C5DF69 /* EmotionView.m */,
+				F80342401CA3837D00C5DF69 /* EmotionView.xib */,
+				F803423B1CA3837D00C5DF69 /* EmotionCollectionViewCell.h */,
+				F803423C1CA3837D00C5DF69 /* EmotionCollectionViewCell.m */,
+				F803423D1CA3837D00C5DF69 /* EmotionCollectionViewCell.xib */,
+				F80342411CA3837D00C5DF69 /* LDEmotionPageView.h */,
+				F80342421CA3837D00C5DF69 /* LDEmotionPageView.m */,
+				F8F1BA8C1CA39E8E008FEFEB /* LDButton.h */,
+				F8F1BA8D1CA39E8E008FEFEB /* LDButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F8222F411CA26C71003A258C = {
+			isa = PBXGroup;
+			children = (
+				F8222F4C1CA26C71003A258C /* 表情包的封装 */,
+				F8222F661CA26C71003A258C /* 表情包的封装Tests */,
+				F8222F711CA26C72003A258C /* 表情包的封装UITests */,
+				F8222F4B1CA26C71003A258C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8222F4B1CA26C71003A258C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8222F4A1CA26C71003A258C /* 表情包的封装.app */,
+				F8222F631CA26C71003A258C /* 表情包的封装Tests.xctest */,
+				F8222F6E1CA26C71003A258C /* 表情包的封装UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8222F4C1CA26C71003A258C /* 表情包的封装 */ = {
+			isa = PBXGroup;
+			children = (
+				F80342311CA3837D00C5DF69 /* Emotion */,
+				F8222F501CA26C71003A258C /* AppDelegate.h */,
+				F8222F511CA26C71003A258C /* AppDelegate.m */,
+				F8222F531CA26C71003A258C /* ViewController.h */,
+				F8222F541CA26C71003A258C /* ViewController.m */,
+				F8222F561CA26C71003A258C /* Main.storyboard */,
+				F8222F591CA26C71003A258C /* Assets.xcassets */,
+				F8222F5B1CA26C71003A258C /* LaunchScreen.storyboard */,
+				F8222F5E1CA26C71003A258C /* Info.plist */,
+				F8222F4D1CA26C71003A258C /* Supporting Files */,
+			);
+			path = "表情包的封装";
+			sourceTree = "<group>";
+		};
+		F8222F4D1CA26C71003A258C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8222F4E1CA26C71003A258C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8222F661CA26C71003A258C /* 表情包的封装Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F8222F671CA26C71003A258C /* ______Tests.m */,
+				F8222F691CA26C71003A258C /* Info.plist */,
+			);
+			path = "表情包的封装Tests";
+			sourceTree = "<group>";
+		};
+		F8222F711CA26C72003A258C /* 表情包的封装UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8222F721CA26C72003A258C /* ______UITests.m */,
+				F8222F741CA26C72003A258C /* Info.plist */,
+			);
+			path = "表情包的封装UITests";
+			sourceTree = "<group>";
+		};
+		F863EBED1CB4D83500E07B3E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F863EBEE1CB4D83500E07B3E /* delete.png */,
+				F863EBEF1CB4D83500E07B3E /* detele_high.png */,
+				F863EBF01CB4D83500E07B3E /* normal.png */,
+				F863EBF11CB4D83500E07B3E /* selected.png */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F8F1BA5B1CA38516008FEFEB /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F8F1BA7E1CA38B55008FEFEB /* EmotionIcons */,
+				F8F1BA5C1CA38516008FEFEB /* MJDictionaryCache.h */,
+				F8F1BA5D1CA38516008FEFEB /* MJDictionaryCache.m */,
+				F8F1BA5E1CA38516008FEFEB /* MJExtension.h */,
+				F8F1BA5F1CA38516008FEFEB /* MJExtensionConst.h */,
+				F8F1BA601CA38516008FEFEB /* MJExtensionConst.m */,
+				F8F1BA611CA38516008FEFEB /* MJFoundation.h */,
+				F8F1BA621CA38516008FEFEB /* MJFoundation.m */,
+				F8F1BA631CA38516008FEFEB /* MJProperty.h */,
+				F8F1BA641CA38516008FEFEB /* MJProperty.m */,
+				F8F1BA651CA38516008FEFEB /* MJPropertyKey.h */,
+				F8F1BA661CA38516008FEFEB /* MJPropertyKey.m */,
+				F8F1BA671CA38516008FEFEB /* MJPropertyType.h */,
+				F8F1BA681CA38516008FEFEB /* MJPropertyType.m */,
+				F8F1BA691CA38516008FEFEB /* NSObject+MJClass.h */,
+				F8F1BA6A1CA38516008FEFEB /* NSObject+MJClass.m */,
+				F8F1BA6B1CA38516008FEFEB /* NSObject+MJCoding.h */,
+				F8F1BA6C1CA38516008FEFEB /* NSObject+MJCoding.m */,
+				F8F1BA6D1CA38516008FEFEB /* NSObject+MJKeyValue.h */,
+				F8F1BA6E1CA38516008FEFEB /* NSObject+MJKeyValue.m */,
+				F8F1BA6F1CA38516008FEFEB /* NSObject+MJProperty.h */,
+				F8F1BA701CA38516008FEFEB /* NSObject+MJProperty.m */,
+				F8F1BA711CA38516008FEFEB /* NSString+MJExtension.h */,
+				F8F1BA721CA38516008FEFEB /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		F8F1BA7E1CA38B55008FEFEB /* EmotionIcons */ = {
+			isa = PBXGroup;
+			children = (
+				F8F1BA7F1CA38B55008FEFEB /* default.bundle */,
+				F8F1BA801CA38B55008FEFEB /* emoji.bundle */,
+				F8F1BA811CA38B55008FEFEB /* lxh.bundle */,
+			);
+			path = EmotionIcons;
+			sourceTree = "<group>";
+		};
+		F8F1BA851CA38B70008FEFEB /* EmotionIcons */ = {
+			isa = PBXGroup;
+			children = (
+				F8FF25251CB3BBE4008F6A06 /* EmoticonQQ.bundle */,
+				F8F1BA861CA38B70008FEFEB /* default.bundle */,
+				F8F1BA871CA38B70008FEFEB /* emoji.bundle */,
+				F8F1BA881CA38B70008FEFEB /* lxh.bundle */,
+			);
+			path = EmotionIcons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8222F491CA26C71003A258C /* 表情包的封装 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8222F771CA26C72003A258C /* Build configuration list for PBXNativeTarget "表情包的封装" */;
+			buildPhases = (
+				F8222F461CA26C71003A258C /* Sources */,
+				F8222F471CA26C71003A258C /* Frameworks */,
+				F8222F481CA26C71003A258C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "表情包的封装";
+			productName = "表情包的封装";
+			productReference = F8222F4A1CA26C71003A258C /* 表情包的封装.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8222F621CA26C71003A258C /* 表情包的封装Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8222F7A1CA26C72003A258C /* Build configuration list for PBXNativeTarget "表情包的封装Tests" */;
+			buildPhases = (
+				F8222F5F1CA26C71003A258C /* Sources */,
+				F8222F601CA26C71003A258C /* Frameworks */,
+				F8222F611CA26C71003A258C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8222F651CA26C71003A258C /* PBXTargetDependency */,
+			);
+			name = "表情包的封装Tests";
+			productName = "表情包的封装Tests";
+			productReference = F8222F631CA26C71003A258C /* 表情包的封装Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8222F6D1CA26C71003A258C /* 表情包的封装UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8222F7D1CA26C72003A258C /* Build configuration list for PBXNativeTarget "表情包的封装UITests" */;
+			buildPhases = (
+				F8222F6A1CA26C71003A258C /* Sources */,
+				F8222F6B1CA26C71003A258C /* Frameworks */,
+				F8222F6C1CA26C71003A258C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8222F701CA26C71003A258C /* PBXTargetDependency */,
+			);
+			name = "表情包的封装UITests";
+			productName = "表情包的封装UITests";
+			productReference = F8222F6E1CA26C71003A258C /* 表情包的封装UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8222F421CA26C71003A258C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = yh;
+				TargetAttributes = {
+					F8222F491CA26C71003A258C = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					F8222F621CA26C71003A258C = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F8222F491CA26C71003A258C;
+					};
+					F8222F6D1CA26C71003A258C = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F8222F491CA26C71003A258C;
+					};
+				};
+			};
+			buildConfigurationList = F8222F451CA26C71003A258C /* Build configuration list for PBXProject "表情包的封装" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8222F411CA26C71003A258C;
+			productRefGroup = F8222F4B1CA26C71003A258C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8222F491CA26C71003A258C /* 表情包的封装 */,
+				F8222F621CA26C71003A258C /* 表情包的封装Tests */,
+				F8222F6D1CA26C71003A258C /* 表情包的封装UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8222F481CA26C71003A258C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F1BA891CA38B70008FEFEB /* default.bundle in Resources */,
+				F80342471CA3837D00C5DF69 /* EmotionCollectionViewCell.xib in Resources */,
+				F8222F5D1CA26C71003A258C /* LaunchScreen.storyboard in Resources */,
+				F80342491CA3837D00C5DF69 /* EmotionView.xib in Resources */,
+				F8222F5A1CA26C71003A258C /* Assets.xcassets in Resources */,
+				F8F1BA8B1CA38B70008FEFEB /* lxh.bundle in Resources */,
+				F863EBF41CB4D83500E07B3E /* normal.png in Resources */,
+				F863EBF21CB4D83500E07B3E /* delete.png in Resources */,
+				F863EBF51CB4D83500E07B3E /* selected.png in Resources */,
+				F8F1BA841CA38B55008FEFEB /* lxh.bundle in Resources */,
+				F8222F581CA26C71003A258C /* Main.storyboard in Resources */,
+				F8F1BA821CA38B55008FEFEB /* default.bundle in Resources */,
+				F863EBF31CB4D83500E07B3E /* detele_high.png in Resources */,
+				F8F1BA8A1CA38B70008FEFEB /* emoji.bundle in Resources */,
+				F8F1BA831CA38B55008FEFEB /* emoji.bundle in Resources */,
+				F8FF25261CB3BBE4008F6A06 /* EmoticonQQ.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8222F611CA26C71003A258C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8222F6C1CA26C71003A258C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8222F461CA26C71003A258C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F1BA7A1CA38516008FEFEB /* NSObject+MJCoding.m in Sources */,
+				F8F1BA781CA38516008FEFEB /* MJPropertyType.m in Sources */,
+				F8F1BA741CA38516008FEFEB /* MJExtensionConst.m in Sources */,
+				F8F1BA771CA38516008FEFEB /* MJPropertyKey.m in Sources */,
+				F8F1BA7B1CA38516008FEFEB /* NSObject+MJKeyValue.m in Sources */,
+				F80342441CA3837D00C5DF69 /* UIView+Extension.m in Sources */,
+				F80342451CA3837D00C5DF69 /* LDEmotionModel.m in Sources */,
+				F8F1BA751CA38516008FEFEB /* MJFoundation.m in Sources */,
+				F8F1BA7D1CA38516008FEFEB /* NSString+MJExtension.m in Sources */,
+				F8F1BA761CA38516008FEFEB /* MJProperty.m in Sources */,
+				F8222F551CA26C71003A258C /* ViewController.m in Sources */,
+				F8F1BA731CA38516008FEFEB /* MJDictionaryCache.m in Sources */,
+				F8222F521CA26C71003A258C /* AppDelegate.m in Sources */,
+				F80342431CA3837D00C5DF69 /* NSString+Emoji.m in Sources */,
+				F8F1BA7C1CA38516008FEFEB /* NSObject+MJProperty.m in Sources */,
+				F8F1BA8E1CA39E8E008FEFEB /* LDButton.m in Sources */,
+				F8222F4F1CA26C71003A258C /* main.m in Sources */,
+				F80342481CA3837D00C5DF69 /* EmotionView.m in Sources */,
+				F8F1BA791CA38516008FEFEB /* NSObject+MJClass.m in Sources */,
+				F80342461CA3837D00C5DF69 /* EmotionCollectionViewCell.m in Sources */,
+				F803424A1CA3837D00C5DF69 /* LDEmotionPageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8222F5F1CA26C71003A258C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8222F681CA26C71003A258C /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8222F6A1CA26C71003A258C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8222F731CA26C72003A258C /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8222F651CA26C71003A258C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8222F491CA26C71003A258C /* 表情包的封装 */;
+			targetProxy = F8222F641CA26C71003A258C /* PBXContainerItemProxy */;
+		};
+		F8222F701CA26C71003A258C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8222F491CA26C71003A258C /* 表情包的封装 */;
+			targetProxy = F8222F6F1CA26C71003A258C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8222F561CA26C71003A258C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8222F571CA26C71003A258C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8222F5B1CA26C71003A258C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8222F5C1CA26C71003A258C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8222F751CA26C72003A258C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8222F761CA26C72003A258C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8222F781CA26C72003A258C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "表情包的封装/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-111111111";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8222F791CA26C72003A258C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "表情包的封装/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-111111111";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8222F7B1CA26C72003A258C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "表情包的封装Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aaa.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/表情包的封装.app/表情包的封装";
+			};
+			name = Debug;
+		};
+		F8222F7C1CA26C72003A258C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "表情包的封装Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aaa.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/表情包的封装.app/表情包的封装";
+			};
+			name = Release;
+		};
+		F8222F7E1CA26C72003A258C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "表情包的封装UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aaa.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "表情包的封装";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F8222F7F1CA26C72003A258C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "表情包的封装UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aaa.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "表情包的封装";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8222F451CA26C71003A258C /* Build configuration list for PBXProject "表情包的封装" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8222F751CA26C72003A258C /* Debug */,
+				F8222F761CA26C72003A258C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8222F771CA26C72003A258C /* Build configuration list for PBXNativeTarget "表情包的封装" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8222F781CA26C72003A258C /* Debug */,
+				F8222F791CA26C72003A258C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8222F7A1CA26C72003A258C /* Build configuration list for PBXNativeTarget "表情包的封装Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8222F7B1CA26C72003A258C /* Debug */,
+				F8222F7C1CA26C72003A258C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8222F7D1CA26C72003A258C /* Build configuration list for PBXNativeTarget "表情包的封装UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8222F7E1CA26C72003A258C /* Debug */,
+				F8222F7F1CA26C72003A258C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8222F421CA26C71003A258C /* Project object */;
+}

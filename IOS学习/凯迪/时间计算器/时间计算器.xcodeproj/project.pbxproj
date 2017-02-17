@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F862EC4C1D34AA8600D2EB82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F862EC4A1D34AA8600D2EB82 /* LaunchScreen.storyboard */; };
+		F862EC571D34AAB900D2EB82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F862EC531D34AAB900D2EB82 /* AppDelegate.swift */; };
+		F862EC581D34AAB900D2EB82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F862EC541D34AAB900D2EB82 /* ViewController.swift */; };
+		F862EC591D34AAB900D2EB82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F862EC561D34AAB900D2EB82 /* Main.storyboard */; };
+		F862EC5B1D34AAE600D2EB82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F862EC5A1D34AAE600D2EB82 /* Assets.xcassets */; };
+		F862EC831D34BA6600D2EB82 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F862EC821D34BA6600D2EB82 /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F862EC3E1D34AA8600D2EB82 /* 时间计算器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "时间计算器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F862EC4B1D34AA8600D2EB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F862EC4D1D34AA8600D2EB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F862EC531D34AAB900D2EB82 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../倒计时练习/倒计时练习/AppDelegate.swift"; sourceTree = "<group>"; };
+		F862EC541D34AAB900D2EB82 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../倒计时练习/倒计时练习/ViewController.swift"; sourceTree = "<group>"; };
+		F862EC551D34AAB900D2EB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F862EC5A1D34AAE600D2EB82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F862EC821D34BA6600D2EB82 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F862EC3B1D34AA8600D2EB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F862EC351D34AA8600D2EB82 = {
+			isa = PBXGroup;
+			children = (
+				F862EC401D34AA8600D2EB82 /* 时间计算器 */,
+				F862EC3F1D34AA8600D2EB82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F862EC3F1D34AA8600D2EB82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F862EC3E1D34AA8600D2EB82 /* 时间计算器.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F862EC401D34AA8600D2EB82 /* 时间计算器 */ = {
+			isa = PBXGroup;
+			children = (
+				F862EC531D34AAB900D2EB82 /* AppDelegate.swift */,
+				F862EC541D34AAB900D2EB82 /* ViewController.swift */,
+				F862EC561D34AAB900D2EB82 /* Main.storyboard */,
+				F862EC821D34BA6600D2EB82 /* TableViewCell.swift */,
+				F862EC4A1D34AA8600D2EB82 /* LaunchScreen.storyboard */,
+				F862EC5A1D34AAE600D2EB82 /* Assets.xcassets */,
+				F862EC4D1D34AA8600D2EB82 /* Info.plist */,
+			);
+			path = "时间计算器";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F862EC3D1D34AA8600D2EB82 /* 时间计算器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F862EC501D34AA8600D2EB82 /* Build configuration list for PBXNativeTarget "时间计算器" */;
+			buildPhases = (
+				F862EC3A1D34AA8600D2EB82 /* Sources */,
+				F862EC3B1D34AA8600D2EB82 /* Frameworks */,
+				F862EC3C1D34AA8600D2EB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "时间计算器";
+			productName = "时间计算器";
+			productReference = F862EC3E1D34AA8600D2EB82 /* 时间计算器.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F862EC361D34AA8600D2EB82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ld;
+				TargetAttributes = {
+					F862EC3D1D34AA8600D2EB82 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F862EC391D34AA8600D2EB82 /* Build configuration list for PBXProject "时间计算器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F862EC351D34AA8600D2EB82;
+			productRefGroup = F862EC3F1D34AA8600D2EB82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F862EC3D1D34AA8600D2EB82 /* 时间计算器 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F862EC3C1D34AA8600D2EB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F862EC591D34AAB900D2EB82 /* Main.storyboard in Resources */,
+				F862EC5B1D34AAE600D2EB82 /* Assets.xcassets in Resources */,
+				F862EC4C1D34AA8600D2EB82 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F862EC3A1D34AA8600D2EB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F862EC831D34BA6600D2EB82 /* TableViewCell.swift in Sources */,
+				F862EC581D34AAB900D2EB82 /* ViewController.swift in Sources */,
+				F862EC571D34AAB900D2EB82 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F862EC4A1D34AA8600D2EB82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F862EC4B1D34AA8600D2EB82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F862EC561D34AAB900D2EB82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F862EC551D34AAB900D2EB82 /* Base */,
+			);
+			name = Main.storyboard;
+			path = "../../倒计时练习/倒计时练习";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F862EC4E1D34AA8600D2EB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F862EC4F1D34AA8600D2EB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F862EC511D34AA8600D2EB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "时间计算器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ld.RCIM.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F862EC521D34AA8600D2EB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "时间计算器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ld.RCIM.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F862EC391D34AA8600D2EB82 /* Build configuration list for PBXProject "时间计算器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F862EC4E1D34AA8600D2EB82 /* Debug */,
+				F862EC4F1D34AA8600D2EB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F862EC501D34AA8600D2EB82 /* Build configuration list for PBXNativeTarget "时间计算器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F862EC511D34AA8600D2EB82 /* Debug */,
+				F862EC521D34AA8600D2EB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F862EC361D34AA8600D2EB82 /* Project object */;
+}

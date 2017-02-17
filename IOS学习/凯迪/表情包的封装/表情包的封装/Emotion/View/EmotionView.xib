@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Gdn-8Z-vrS" customClass="EmotionView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="IQm-du-VMb">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="xPV-V5-QEG"/>
+                    </constraints>
+                    <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="m7x-bv-MXA">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="Gdn-8Z-vrS" id="2vi-93-J2E"/>
+                        <outlet property="delegate" destination="Gdn-8Z-vrS" id="EMF-rE-JYo"/>
+                    </connections>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jsQ-mr-HfT">
+                    <rect key="frame" x="0.0" y="186" width="320" height="30"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k12-42-Gnu" customClass="LDButton">
+                            <rect key="frame" x="0.0" y="0.0" width="50" height="30"/>
+                            <color key="backgroundColor" red="0.98823529409999999" green="0.23921568630000001" blue="0.027450980390000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="gSF-ee-OXg"/>
+                            </constraints>
+                            <state key="normal" title="QQ" backgroundImage="normal.png"/>
+                            <state key="selected" backgroundImage="selected.png">
+                                <color key="titleColor" red="0.17254901959999999" green="0.24313725489999999" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="QQEmotion:" destination="Gdn-8Z-vrS" eventType="touchUpInside" id="C2m-h8-bv5"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEy-3Z-3sO" customClass="LDButton">
+                            <rect key="frame" x="50" y="0.0" width="50" height="30"/>
+                            <color key="backgroundColor" red="0.1764705882" green="0.56862745100000001" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="GY9-tN-6a8"/>
+                            </constraints>
+                            <state key="normal" title="Emoji" backgroundImage="normal.png"/>
+                            <state key="selected" backgroundImage="selected.png">
+                                <color key="titleColor" red="0.17254901959999999" green="0.24313725489999999" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="EmojiEmotion:" destination="Gdn-8Z-vrS" eventType="touchUpInside" id="Fbf-Jl-Aqn"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8f3-0d-5qL">
+                            <rect key="frame" x="270" y="0.0" width="50" height="30"/>
+                            <color key="backgroundColor" red="0.83921568629999999" green="0.83921568629999999" blue="0.83921568629999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="m7S-av-CQw"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <state key="normal" title="发送">
+                                <color key="titleColor" red="0.17254901959999999" green="0.24313725489999999" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="SendEmotion:" destination="Gdn-8Z-vrS" eventType="touchUpInside" id="Eb0-oP-rdh"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="qEy-3Z-3sO" firstAttribute="leading" secondItem="k12-42-Gnu" secondAttribute="trailing" id="Ecb-a6-vRB"/>
+                        <constraint firstAttribute="bottom" secondItem="k12-42-Gnu" secondAttribute="bottom" id="Gks-gW-QQU"/>
+                        <constraint firstItem="8f3-0d-5qL" firstAttribute="top" secondItem="jsQ-mr-HfT" secondAttribute="top" id="HPZ-vQ-W1Q"/>
+                        <constraint firstItem="qEy-3Z-3sO" firstAttribute="top" secondItem="jsQ-mr-HfT" secondAttribute="top" id="QQg-IX-47S"/>
+                        <constraint firstItem="k12-42-Gnu" firstAttribute="top" secondItem="jsQ-mr-HfT" secondAttribute="top" id="TI1-io-rn2"/>
+                        <constraint firstAttribute="bottom" secondItem="qEy-3Z-3sO" secondAttribute="bottom" id="Y3R-Qg-FID"/>
+                        <constraint firstAttribute="bottom" secondItem="8f3-0d-5qL" secondAttribute="bottom" id="a3i-TM-KXX"/>
+                        <constraint firstItem="k12-42-Gnu" firstAttribute="leading" secondItem="jsQ-mr-HfT" secondAttribute="leading" id="drX-QH-FE7"/>
+                        <constraint firstAttribute="height" constant="30" id="mgJ-kD-1oG"/>
+                        <constraint firstAttribute="trailing" secondItem="8f3-0d-5qL" secondAttribute="trailing" id="o9W-nl-w6m"/>
+                    </constraints>
+                </view>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="eBN-EX-r25">
+                    <rect key="frame" x="141" y="150" width="39" height="37"/>
+                    <color key="pageIndicatorTintColor" red="0.83921568629999999" green="0.83921568629999999" blue="0.83921568629999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="currentPageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="jsQ-mr-HfT" firstAttribute="leading" secondItem="Gdn-8Z-vrS" secondAttribute="leading" id="2l3-nN-YkM"/>
+                <constraint firstItem="eBN-EX-r25" firstAttribute="centerX" secondItem="Gdn-8Z-vrS" secondAttribute="centerX" id="6n6-tM-7ef"/>
+                <constraint firstItem="IQm-du-VMb" firstAttribute="leading" secondItem="Gdn-8Z-vrS" secondAttribute="leading" id="PYx-aC-wXo"/>
+                <constraint firstAttribute="trailing" secondItem="IQm-du-VMb" secondAttribute="trailing" id="V0c-FW-nXU"/>
+                <constraint firstAttribute="trailing" secondItem="jsQ-mr-HfT" secondAttribute="trailing" id="Xky-4c-cMY"/>
+                <constraint firstAttribute="bottom" secondItem="jsQ-mr-HfT" secondAttribute="bottom" id="XxC-nG-bXd"/>
+                <constraint firstItem="eBN-EX-r25" firstAttribute="top" secondItem="Gdn-8Z-vrS" secondAttribute="top" constant="150" id="sN0-ff-t1x"/>
+                <constraint firstItem="IQm-du-VMb" firstAttribute="top" secondItem="Gdn-8Z-vrS" secondAttribute="top" id="zxw-Af-ufP"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="QQEmotionBtn" destination="k12-42-Gnu" id="wgS-Lf-gYZ"/>
+                <outlet property="SendBtn" destination="8f3-0d-5qL" id="hjf-34-ldw"/>
+                <outlet property="collectionView" destination="IQm-du-VMb" id="aV3-rk-ZWL"/>
+                <outlet property="emojiEmotionBtn" destination="qEy-3Z-3sO" id="exO-Yf-Zij"/>
+                <outlet property="layout" destination="m7x-bv-MXA" id="JeK-rh-AuG"/>
+                <outlet property="pageControl" destination="eBN-EX-r25" id="6MH-8g-1yb"/>
+            </connections>
+            <point key="canvasLocation" x="417" y="293"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="normal.png" width="12" height="74"/>
+        <image name="selected.png" width="12" height="74"/>
+    </resources>
+</document>
