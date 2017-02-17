@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9232AD31C39FCA900FE098D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9232AD21C39FCA900FE098D /* main.m */; };
+		A9232AD61C39FCA900FE098D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9232AD51C39FCA900FE098D /* AppDelegate.m */; };
+		A9232AD91C39FCA900FE098D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9232AD81C39FCA900FE098D /* ViewController.m */; };
+		A9232ADC1C39FCAA00FE098D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9232ADA1C39FCAA00FE098D /* Main.storyboard */; };
+		A9232ADE1C39FCAA00FE098D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9232ADD1C39FCAA00FE098D /* Assets.xcassets */; };
+		A9232AE11C39FCAA00FE098D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9232ADF1C39FCAA00FE098D /* LaunchScreen.storyboard */; };
+		A9232AF01C39FEB500FE098D /* DemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9232AEB1C39FEB500FE098D /* DemoCell.m */; };
+		A9232AF11C39FEB500FE098D /* DemoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9232AEC1C39FEB500FE098D /* DemoCell.xib */; };
+		A9232AF21C39FEB500FE098D /* DemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9232AEE1C39FEB500FE098D /* DemoModel.m */; };
+		A9232AF81C3A06C800FE098D /* NewSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A9232AF71C3A06C800FE098D /* NewSearchBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9232ACE1C39FCA900FE098D /* searBar的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "searBar的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9232AD21C39FCA900FE098D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9232AD41C39FCA900FE098D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9232AD51C39FCA900FE098D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9232AD71C39FCA900FE098D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9232AD81C39FCA900FE098D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9232ADB1C39FCAA00FE098D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9232ADD1C39FCAA00FE098D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9232AE01C39FCAA00FE098D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9232AE21C39FCAA00FE098D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9232AEA1C39FEB500FE098D /* DemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCell.h; sourceTree = "<group>"; };
+		A9232AEB1C39FEB500FE098D /* DemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCell.m; sourceTree = "<group>"; };
+		A9232AEC1C39FEB500FE098D /* DemoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoCell.xib; sourceTree = "<group>"; };
+		A9232AED1C39FEB500FE098D /* DemoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoModel.h; sourceTree = "<group>"; };
+		A9232AEE1C39FEB500FE098D /* DemoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoModel.m; sourceTree = "<group>"; };
+		A9232AF61C3A06C800FE098D /* NewSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewSearchBar.h; path = ../NewSearchBar.h; sourceTree = "<group>"; };
+		A9232AF71C3A06C800FE098D /* NewSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewSearchBar.m; path = ../NewSearchBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9232ACB1C39FCA900FE098D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9232AC51C39FCA900FE098D = {
+			isa = PBXGroup;
+			children = (
+				A9232AD01C39FCA900FE098D /* searBar的使用 */,
+				A9232ACF1C39FCA900FE098D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9232ACF1C39FCA900FE098D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9232ACE1C39FCA900FE098D /* searBar的使用.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9232AD01C39FCA900FE098D /* searBar的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				A9232AD41C39FCA900FE098D /* AppDelegate.h */,
+				A9232AD51C39FCA900FE098D /* AppDelegate.m */,
+				A9232AD71C39FCA900FE098D /* ViewController.h */,
+				A9232AD81C39FCA900FE098D /* ViewController.m */,
+				A9232AF61C3A06C800FE098D /* NewSearchBar.h */,
+				A9232AF71C3A06C800FE098D /* NewSearchBar.m */,
+				A9232AEA1C39FEB500FE098D /* DemoCell.h */,
+				A9232AEB1C39FEB500FE098D /* DemoCell.m */,
+				A9232AEC1C39FEB500FE098D /* DemoCell.xib */,
+				A9232AED1C39FEB500FE098D /* DemoModel.h */,
+				A9232AEE1C39FEB500FE098D /* DemoModel.m */,
+				A9232ADA1C39FCAA00FE098D /* Main.storyboard */,
+				A9232ADD1C39FCAA00FE098D /* Assets.xcassets */,
+				A9232ADF1C39FCAA00FE098D /* LaunchScreen.storyboard */,
+				A9232AE21C39FCAA00FE098D /* Info.plist */,
+				A9232AD11C39FCA900FE098D /* Supporting Files */,
+			);
+			path = "searBar的使用";
+			sourceTree = "<group>";
+		};
+		A9232AD11C39FCA900FE098D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9232AD21C39FCA900FE098D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9232ACD1C39FCA900FE098D /* searBar的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9232AE51C39FCAA00FE098D /* Build configuration list for PBXNativeTarget "searBar的使用" */;
+			buildPhases = (
+				A9232ACA1C39FCA900FE098D /* Sources */,
+				A9232ACB1C39FCA900FE098D /* Frameworks */,
+				A9232ACC1C39FCA900FE098D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "searBar的使用";
+			productName = "searBar的使用";
+			productReference = A9232ACE1C39FCA900FE098D /* searBar的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9232AC61C39FCA900FE098D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = kingpoint;
+				TargetAttributes = {
+					A9232ACD1C39FCA900FE098D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A9232AC91C39FCA900FE098D /* Build configuration list for PBXProject "searBar的使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9232AC51C39FCA900FE098D;
+			productRefGroup = A9232ACF1C39FCA900FE098D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9232ACD1C39FCA900FE098D /* searBar的使用 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9232ACC1C39FCA900FE098D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9232AE11C39FCAA00FE098D /* LaunchScreen.storyboard in Resources */,
+				A9232ADE1C39FCAA00FE098D /* Assets.xcassets in Resources */,
+				A9232AF11C39FEB500FE098D /* DemoCell.xib in Resources */,
+				A9232ADC1C39FCAA00FE098D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9232ACA1C39FCA900FE098D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9232AF81C3A06C800FE098D /* NewSearchBar.m in Sources */,
+				A9232AF21C39FEB500FE098D /* DemoModel.m in Sources */,
+				A9232AD91C39FCA900FE098D /* ViewController.m in Sources */,
+				A9232AF01C39FEB500FE098D /* DemoCell.m in Sources */,
+				A9232AD61C39FCA900FE098D /* AppDelegate.m in Sources */,
+				A9232AD31C39FCA900FE098D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9232ADA1C39FCAA00FE098D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9232ADB1C39FCAA00FE098D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9232ADF1C39FCAA00FE098D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9232AE01C39FCAA00FE098D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9232AE31C39FCAA00FE098D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9232AE41C39FCAA00FE098D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9232AE61C39FCAA00FE098D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "searBar的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kingPoint.searBar---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9232AE71C39FCAA00FE098D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "searBar的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kingPoint.searBar---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9232AC91C39FCA900FE098D /* Build configuration list for PBXProject "searBar的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9232AE31C39FCAA00FE098D /* Debug */,
+				A9232AE41C39FCAA00FE098D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9232AE51C39FCAA00FE098D /* Build configuration list for PBXNativeTarget "searBar的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9232AE61C39FCAA00FE098D /* Debug */,
+				A9232AE71C39FCAA00FE098D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9232AC61C39FCA900FE098D /* Project object */;
+}

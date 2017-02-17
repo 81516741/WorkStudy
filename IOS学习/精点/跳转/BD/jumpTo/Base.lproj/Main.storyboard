@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="uu2-OR-rwu">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我是百度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B3g-0J-h6M">
+                                <rect key="frame" x="149" y="111" width="68" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="EyL-Hj-Ubj"/>
+                                    <constraint firstAttribute="width" constant="68" id="uyH-i5-4wX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O0G-df-07C">
+                                <rect key="frame" x="161" y="319" width="53" height="30"/>
+                                <state key="normal" title="跳回QQ"/>
+                                <connections>
+                                    <action selector="jumpToQQ:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VgB-x7-zig"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.97217153280000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="O0G-df-07C" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="LB3-Kk-KHn"/>
+                            <constraint firstItem="B3g-0J-h6M" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="133" id="bDF-fx-MxR"/>
+                            <constraint firstItem="B3g-0J-h6M" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="47" id="cdw-1O-pyt"/>
+                            <constraint firstItem="O0G-df-07C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qSd-VF-dvk"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="RTg-Uy-t1a"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="u9N-wO-8ai" kind="show" identifier="login" id="0KP-YJ-tqB"/>
+                        <segue destination="tB2-xr-LY1" kind="show" identifier="send" id="qoV-nX-ldc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="744.5" y="369.5"/>
+        </scene>
+        <!--BD空间-->
+        <scene sceneID="6Fj-fi-i6P">
+            <objects>
+                <viewController id="tB2-xr-LY1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="m03-TF-Id0"/>
+                        <viewControllerLayoutGuide type="bottom" id="rAX-cf-u3U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7Mp-X7-HOK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我在发说说" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSd-u8-S4w">
+                                <rect key="frame" x="145" y="117" width="85" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Mcc-VY-ixa"/>
+                                    <constraint firstAttribute="width" constant="85" id="NWX-ON-Dv2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92405849360000003" green="0.093487172879999997" blue="0.1721177676" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="RSd-u8-S4w" firstAttribute="top" secondItem="m03-TF-Id0" secondAttribute="bottom" constant="53" id="GEA-WM-6kK"/>
+                            <constraint firstItem="RSd-u8-S4w" firstAttribute="centerX" secondItem="7Mp-X7-HOK" secondAttribute="centerX" id="sYo-4y-r3c"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="BD空间" id="cRn-fL-kY1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h2D-hO-wrO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1254" y="814"/>
+        </scene>
+        <!--BD登陆-->
+        <scene sceneID="XgX-0C-TsQ">
+            <objects>
+                <tableViewController id="u9N-wO-8ai" customClass="LoginTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="eXz-nc-gdD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="c8m-gZ-tLU">
+                                <rect key="frame" x="0.0" y="92" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="c8m-gZ-tLU" id="XBu-as-oe1">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="u9N-wO-8ai" id="3JT-k2-VAP"/>
+                            <outlet property="delegate" destination="u9N-wO-8ai" id="awf-Sn-oAY"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="BD登陆" id="NCM-S9-4vv"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uGs-K3-Vu9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1254" y="111"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hy2-YX-ofu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uu2-OR-rwu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TPd-da-bxx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="c6c-tD-NBD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vyv-qc-CJ1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="317" y="370"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bc8-kw-tHf">
+                                <rect key="frame" x="259" y="205" width="83" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="跳转BD空间"/>
+                                <connections>
+                                    <action selector="jump:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FMA-3M-OkJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5E-YV-vaq">
+                                <rect key="frame" x="274" y="365" width="53" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="跳转BD"/>
+                                <connections>
+                                    <action selector="jump:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BMq-rA-vk9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我是QQ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ile-H9-CNj">
+                                <rect key="frame" x="271" y="103" width="60" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2oG-Zm-TYl">
+                                <rect key="frame" x="259" y="285" width="83" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.97217153280000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="跳转BD登陆"/>
+                                <connections>
+                                    <action selector="jump:" destination="BYZ-38-t0r" eventType="touchUpInside" id="laj-Kx-egY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="S5E-YV-vaq" firstAttribute="top" secondItem="2oG-Zm-TYl" secondAttribute="bottom" constant="50" id="3RR-b7-8i5"/>
+                            <constraint firstItem="ile-H9-CNj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="83" id="Jwp-4q-F3M"/>
+                            <constraint firstItem="S5E-YV-vaq" firstAttribute="centerX" secondItem="2oG-Zm-TYl" secondAttribute="centerX" id="M2F-GY-VPM"/>
+                            <constraint firstItem="2oG-Zm-TYl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PE5-BO-5LQ"/>
+                            <constraint firstItem="Bc8-kw-tHf" firstAttribute="centerX" secondItem="2oG-Zm-TYl" secondAttribute="centerX" id="Sfd-5E-OJZ"/>
+                            <constraint firstItem="ile-H9-CNj" firstAttribute="centerX" secondItem="Bc8-kw-tHf" secondAttribute="centerX" id="Wxc-LA-GpU"/>
+                            <constraint firstItem="2oG-Zm-TYl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bzR-9d-f5x"/>
+                            <constraint firstItem="2oG-Zm-TYl" firstAttribute="top" secondItem="Bc8-kw-tHf" secondAttribute="bottom" constant="50" id="poa-iI-sz7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="354" y="351"/>
+        </scene>
+    </scenes>
+</document>

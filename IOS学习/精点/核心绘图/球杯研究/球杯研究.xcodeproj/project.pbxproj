@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040770251C30164400D4C0EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040770241C30164400D4C0EA /* main.m */; };
+		040770281C30164400D4C0EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040770271C30164400D4C0EA /* AppDelegate.m */; };
+		0407702B1C30164400D4C0EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0407702A1C30164400D4C0EA /* ViewController.m */; };
+		0407702E1C30164400D4C0EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0407702C1C30164400D4C0EA /* Main.storyboard */; };
+		040770301C30164400D4C0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0407702F1C30164400D4C0EA /* Assets.xcassets */; };
+		040770331C30164400D4C0EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040770311C30164400D4C0EA /* LaunchScreen.storyboard */; };
+		0407703C1C30165000D4C0EA /* FlowProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0407703B1C30165000D4C0EA /* FlowProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040770201C30164400D4C0EA /* 球杯研究.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "球杯研究.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		040770241C30164400D4C0EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		040770261C30164400D4C0EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		040770271C30164400D4C0EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		040770291C30164400D4C0EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0407702A1C30164400D4C0EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0407702D1C30164400D4C0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0407702F1C30164400D4C0EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040770321C30164400D4C0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040770341C30164400D4C0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0407703A1C30165000D4C0EA /* FlowProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowProgressView.h; sourceTree = "<group>"; };
+		0407703B1C30165000D4C0EA /* FlowProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0407701D1C30164400D4C0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040770171C30164400D4C0EA = {
+			isa = PBXGroup;
+			children = (
+				040770221C30164400D4C0EA /* 球杯研究 */,
+				040770211C30164400D4C0EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		040770211C30164400D4C0EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040770201C30164400D4C0EA /* 球杯研究.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040770221C30164400D4C0EA /* 球杯研究 */ = {
+			isa = PBXGroup;
+			children = (
+				0407703A1C30165000D4C0EA /* FlowProgressView.h */,
+				0407703B1C30165000D4C0EA /* FlowProgressView.m */,
+				040770261C30164400D4C0EA /* AppDelegate.h */,
+				040770271C30164400D4C0EA /* AppDelegate.m */,
+				040770291C30164400D4C0EA /* ViewController.h */,
+				0407702A1C30164400D4C0EA /* ViewController.m */,
+				0407702C1C30164400D4C0EA /* Main.storyboard */,
+				0407702F1C30164400D4C0EA /* Assets.xcassets */,
+				040770311C30164400D4C0EA /* LaunchScreen.storyboard */,
+				040770341C30164400D4C0EA /* Info.plist */,
+				040770231C30164400D4C0EA /* Supporting Files */,
+			);
+			path = "球杯研究";
+			sourceTree = "<group>";
+		};
+		040770231C30164400D4C0EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				040770241C30164400D4C0EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0407701F1C30164400D4C0EA /* 球杯研究 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040770371C30164400D4C0EA /* Build configuration list for PBXNativeTarget "球杯研究" */;
+			buildPhases = (
+				0407701C1C30164400D4C0EA /* Sources */,
+				0407701D1C30164400D4C0EA /* Frameworks */,
+				0407701E1C30164400D4C0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "球杯研究";
+			productName = "球杯研究";
+			productReference = 040770201C30164400D4C0EA /* 球杯研究.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040770181C30164400D4C0EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = LD;
+				TargetAttributes = {
+					0407701F1C30164400D4C0EA = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 0407701B1C30164400D4C0EA /* Build configuration list for PBXProject "球杯研究" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040770171C30164400D4C0EA;
+			productRefGroup = 040770211C30164400D4C0EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0407701F1C30164400D4C0EA /* 球杯研究 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0407701E1C30164400D4C0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040770331C30164400D4C0EA /* LaunchScreen.storyboard in Resources */,
+				040770301C30164400D4C0EA /* Assets.xcassets in Resources */,
+				0407702E1C30164400D4C0EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0407701C1C30164400D4C0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0407702B1C30164400D4C0EA /* ViewController.m in Sources */,
+				0407703C1C30165000D4C0EA /* FlowProgressView.m in Sources */,
+				040770281C30164400D4C0EA /* AppDelegate.m in Sources */,
+				040770251C30164400D4C0EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0407702C1C30164400D4C0EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0407702D1C30164400D4C0EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040770311C30164400D4C0EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040770321C30164400D4C0EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040770351C30164400D4C0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		040770361C30164400D4C0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040770381C30164400D4C0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "球杯研究/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lingda.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		040770391C30164400D4C0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "球杯研究/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lingda.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0407701B1C30164400D4C0EA /* Build configuration list for PBXProject "球杯研究" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040770351C30164400D4C0EA /* Debug */,
+				040770361C30164400D4C0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040770371C30164400D4C0EA /* Build configuration list for PBXNativeTarget "球杯研究" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040770381C30164400D4C0EA /* Debug */,
+				040770391C30164400D4C0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040770181C30164400D4C0EA /* Project object */;
+}
