@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
 @interface ViewController ()
 
 @end
@@ -30,6 +31,7 @@
     NSLog(@"long long = %ld",sizeof(longlongA));
     NSLog(@"float = %ld",sizeof(floatA));
     NSLog(@"double = %ld",sizeof(doubleA));
+
 }
 
 @end
