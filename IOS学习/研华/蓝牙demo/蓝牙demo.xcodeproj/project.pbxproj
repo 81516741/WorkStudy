@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F89329A81D653BEC00C157EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F89329A71D653BEC00C157EE /* main.m */; };
+		F89329AB1D653BEC00C157EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F89329AA1D653BEC00C157EE /* AppDelegate.m */; };
+		F89329AE1D653BEC00C157EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89329AD1D653BEC00C157EE /* ViewController.m */; };
+		F89329B11D653BEC00C157EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89329AF1D653BEC00C157EE /* Main.storyboard */; };
+		F89329B31D653BEC00C157EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F89329B21D653BEC00C157EE /* Assets.xcassets */; };
+		F89329B61D653BEC00C157EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89329B41D653BEC00C157EE /* LaunchScreen.storyboard */; };
+		F89329C31D653C6F00C157EE /* BLEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F89329C21D653C6F00C157EE /* BLEManager.m */; };
+		F89329C61D6548ED00C157EE /* BLEPeripheralList.m in Sources */ = {isa = PBXBuildFile; fileRef = F89329C51D6548ED00C157EE /* BLEPeripheralList.m */; };
+		F89329C91D65654200C157EE /* BLEWriteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F89329C81D65654200C157EE /* BLEWriteVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F89329A31D653BEC00C157EE /* 蓝牙demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "蓝牙demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89329A71D653BEC00C157EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F89329A91D653BEC00C157EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F89329AA1D653BEC00C157EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F89329AC1D653BEC00C157EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F89329AD1D653BEC00C157EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F89329B01D653BEC00C157EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F89329B21D653BEC00C157EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F89329B51D653BEC00C157EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F89329B71D653BEC00C157EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89329C11D653C6F00C157EE /* BLEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEManager.h; sourceTree = "<group>"; };
+		F89329C21D653C6F00C157EE /* BLEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEManager.m; sourceTree = "<group>"; };
+		F89329C41D6548ED00C157EE /* BLEPeripheralList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEPeripheralList.h; sourceTree = "<group>"; };
+		F89329C51D6548ED00C157EE /* BLEPeripheralList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEPeripheralList.m; sourceTree = "<group>"; };
+		F89329C71D65654200C157EE /* BLEWriteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEWriteVC.h; sourceTree = "<group>"; };
+		F89329C81D65654200C157EE /* BLEWriteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEWriteVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F89329A01D653BEC00C157EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F893299A1D653BEC00C157EE = {
+			isa = PBXGroup;
+			children = (
+				F89329A51D653BEC00C157EE /* 蓝牙demo */,
+				F89329A41D653BEC00C157EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F89329A41D653BEC00C157EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F89329A31D653BEC00C157EE /* 蓝牙demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F89329A51D653BEC00C157EE /* 蓝牙demo */ = {
+			isa = PBXGroup;
+			children = (
+				F89329C01D653C6F00C157EE /* BLE */,
+				F89329A91D653BEC00C157EE /* AppDelegate.h */,
+				F89329AA1D653BEC00C157EE /* AppDelegate.m */,
+				F89329AC1D653BEC00C157EE /* ViewController.h */,
+				F89329AD1D653BEC00C157EE /* ViewController.m */,
+				F89329C41D6548ED00C157EE /* BLEPeripheralList.h */,
+				F89329C51D6548ED00C157EE /* BLEPeripheralList.m */,
+				F89329C71D65654200C157EE /* BLEWriteVC.h */,
+				F89329C81D65654200C157EE /* BLEWriteVC.m */,
+				F89329AF1D653BEC00C157EE /* Main.storyboard */,
+				F89329B21D653BEC00C157EE /* Assets.xcassets */,
+				F89329B41D653BEC00C157EE /* LaunchScreen.storyboard */,
+				F89329B71D653BEC00C157EE /* Info.plist */,
+				F89329A61D653BEC00C157EE /* Supporting Files */,
+			);
+			path = "蓝牙demo";
+			sourceTree = "<group>";
+		};
+		F89329A61D653BEC00C157EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F89329A71D653BEC00C157EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F89329C01D653C6F00C157EE /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				F89329C11D653C6F00C157EE /* BLEManager.h */,
+				F89329C21D653C6F00C157EE /* BLEManager.m */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F89329A21D653BEC00C157EE /* 蓝牙demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89329BA1D653BEC00C157EE /* Build configuration list for PBXNativeTarget "蓝牙demo" */;
+			buildPhases = (
+				F893299F1D653BEC00C157EE /* Sources */,
+				F89329A01D653BEC00C157EE /* Frameworks */,
+				F89329A11D653BEC00C157EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "蓝牙demo";
+			productName = "蓝牙demo";
+			productReference = F89329A31D653BEC00C157EE /* 蓝牙demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F893299B1D653BEC00C157EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ld;
+				TargetAttributes = {
+					F89329A21D653BEC00C157EE = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F893299E1D653BEC00C157EE /* Build configuration list for PBXProject "蓝牙demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F893299A1D653BEC00C157EE;
+			productRefGroup = F89329A41D653BEC00C157EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F89329A21D653BEC00C157EE /* 蓝牙demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F89329A11D653BEC00C157EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89329B61D653BEC00C157EE /* LaunchScreen.storyboard in Resources */,
+				F89329B31D653BEC00C157EE /* Assets.xcassets in Resources */,
+				F89329B11D653BEC00C157EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F893299F1D653BEC00C157EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89329C61D6548ED00C157EE /* BLEPeripheralList.m in Sources */,
+				F89329AE1D653BEC00C157EE /* ViewController.m in Sources */,
+				F89329C91D65654200C157EE /* BLEWriteVC.m in Sources */,
+				F89329C31D653C6F00C157EE /* BLEManager.m in Sources */,
+				F89329AB1D653BEC00C157EE /* AppDelegate.m in Sources */,
+				F89329A81D653BEC00C157EE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F89329AF1D653BEC00C157EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F89329B01D653BEC00C157EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F89329B41D653BEC00C157EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F89329B51D653BEC00C157EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F89329B81D653BEC00C157EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F89329B91D653BEC00C157EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F89329BB1D653BEC00C157EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "蓝牙demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ld.RCIM.--demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F89329BC1D653BEC00C157EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "蓝牙demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ld.RCIM.--demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F893299E1D653BEC00C157EE /* Build configuration list for PBXProject "蓝牙demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89329B81D653BEC00C157EE /* Debug */,
+				F89329B91D653BEC00C157EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89329BA1D653BEC00C157EE /* Build configuration list for PBXNativeTarget "蓝牙demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89329BB1D653BEC00C157EE /* Debug */,
+				F89329BC1D653BEC00C157EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F893299B1D653BEC00C157EE /* Project object */;
+}

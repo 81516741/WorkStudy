@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  prefix_function
+//
+//  Created by yh on 16/4/26.
+//  Copyright © 2016年 ld. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+void LDLog(NSString *FormatString,...) {
+    /*
+     #ifdef	DEBUG
+     va_list vl;
+     va_start(vl, FormatString);
+     auto Str = [[NSString alloc] initWithFormat:FormatString arguments:vl];
+     auto UTF8Str = Str.UTF8String;
+     printf("%s\n",UTF8Str);
+     va_end(vl);
+     #endif
+     */
+}
+
+#define LDLD
+
+#endif /* PrefixHeader_pch */

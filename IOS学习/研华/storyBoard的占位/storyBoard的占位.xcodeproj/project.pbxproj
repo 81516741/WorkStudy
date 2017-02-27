@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F82C17201D3F4DFF005DEC07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C171F1D3F4DFF005DEC07 /* AppDelegate.swift */; };
+		F82C17221D3F4DFF005DEC07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C17211D3F4DFF005DEC07 /* ViewController.swift */; };
+		F82C17251D3F4DFF005DEC07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82C17231D3F4DFF005DEC07 /* Main.storyboard */; };
+		F82C17271D3F4DFF005DEC07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82C17261D3F4DFF005DEC07 /* Assets.xcassets */; };
+		F82C172A1D3F4DFF005DEC07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82C17281D3F4DFF005DEC07 /* LaunchScreen.storyboard */; };
+		F82C17361D3F5062005DEC07 /* Jump.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82C17341D3F5062005DEC07 /* Jump.storyboard */; };
+		F82C17381D3F5079005DEC07 /* JumpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C17371D3F5079005DEC07 /* JumpVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F82C171C1D3F4DFF005DEC07 /* storyBoard的占位.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "storyBoard的占位.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82C171F1D3F4DFF005DEC07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F82C17211D3F4DFF005DEC07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F82C17241D3F4DFF005DEC07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F82C17261D3F4DFF005DEC07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F82C17291D3F4DFF005DEC07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F82C172B1D3F4DFF005DEC07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F82C17351D3F5062005DEC07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Jump.storyboard; sourceTree = "<group>"; };
+		F82C17371D3F5079005DEC07 /* JumpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumpVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F82C17191D3F4DFF005DEC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F82C17131D3F4DFF005DEC07 = {
+			isa = PBXGroup;
+			children = (
+				F82C171E1D3F4DFF005DEC07 /* storyBoard的占位 */,
+				F82C171D1D3F4DFF005DEC07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F82C171D1D3F4DFF005DEC07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F82C171C1D3F4DFF005DEC07 /* storyBoard的占位.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F82C171E1D3F4DFF005DEC07 /* storyBoard的占位 */ = {
+			isa = PBXGroup;
+			children = (
+				F82C171F1D3F4DFF005DEC07 /* AppDelegate.swift */,
+				F82C17211D3F4DFF005DEC07 /* ViewController.swift */,
+				F82C17371D3F5079005DEC07 /* JumpVC.swift */,
+				F82C17231D3F4DFF005DEC07 /* Main.storyboard */,
+				F82C17341D3F5062005DEC07 /* Jump.storyboard */,
+				F82C17261D3F4DFF005DEC07 /* Assets.xcassets */,
+				F82C17281D3F4DFF005DEC07 /* LaunchScreen.storyboard */,
+				F82C172B1D3F4DFF005DEC07 /* Info.plist */,
+			);
+			path = "storyBoard的占位";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F82C171B1D3F4DFF005DEC07 /* storyBoard的占位 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82C172E1D3F4DFF005DEC07 /* Build configuration list for PBXNativeTarget "storyBoard的占位" */;
+			buildPhases = (
+				F82C17181D3F4DFF005DEC07 /* Sources */,
+				F82C17191D3F4DFF005DEC07 /* Frameworks */,
+				F82C171A1D3F4DFF005DEC07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "storyBoard的占位";
+			productName = "storyBoard的占位";
+			productReference = F82C171C1D3F4DFF005DEC07 /* storyBoard的占位.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F82C17141D3F4DFF005DEC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ld;
+				TargetAttributes = {
+					F82C171B1D3F4DFF005DEC07 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F82C17171D3F4DFF005DEC07 /* Build configuration list for PBXProject "storyBoard的占位" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F82C17131D3F4DFF005DEC07;
+			productRefGroup = F82C171D1D3F4DFF005DEC07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F82C171B1D3F4DFF005DEC07 /* storyBoard的占位 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F82C171A1D3F4DFF005DEC07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82C172A1D3F4DFF005DEC07 /* LaunchScreen.storyboard in Resources */,
+				F82C17271D3F4DFF005DEC07 /* Assets.xcassets in Resources */,
+				F82C17361D3F5062005DEC07 /* Jump.storyboard in Resources */,
+				F82C17251D3F4DFF005DEC07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F82C17181D3F4DFF005DEC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82C17381D3F5079005DEC07 /* JumpVC.swift in Sources */,
+				F82C17221D3F4DFF005DEC07 /* ViewController.swift in Sources */,
+				F82C17201D3F4DFF005DEC07 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F82C17231D3F4DFF005DEC07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F82C17241D3F4DFF005DEC07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F82C17281D3F4DFF005DEC07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F82C17291D3F4DFF005DEC07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F82C17341D3F5062005DEC07 /* Jump.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F82C17351D3F5062005DEC07 /* Base */,
+			);
+			name = Jump.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F82C172C1D3F4DFF005DEC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F82C172D1D3F4DFF005DEC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F82C172F1D3F4DFF005DEC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "storyBoard的占位/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ld.RCIM.storyBoard---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F82C17301D3F4DFF005DEC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "storyBoard的占位/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ld.RCIM.storyBoard---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F82C17171D3F4DFF005DEC07 /* Build configuration list for PBXProject "storyBoard的占位" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82C172C1D3F4DFF005DEC07 /* Debug */,
+				F82C172D1D3F4DFF005DEC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F82C172E1D3F4DFF005DEC07 /* Build configuration list for PBXNativeTarget "storyBoard的占位" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82C172F1D3F4DFF005DEC07 /* Debug */,
+				F82C17301D3F4DFF005DEC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F82C17141D3F4DFF005DEC07 /* Project object */;
+}
