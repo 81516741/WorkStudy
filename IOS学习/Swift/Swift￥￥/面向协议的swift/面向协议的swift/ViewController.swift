@@ -16,6 +16,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print(Animal(name:"nihao").name)
         Animal(name:"caocao").bigEat()
+        
+        LocaleClient().send(UserRequest()) { user in
+            
+        }
     }
 }
 

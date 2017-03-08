@@ -33,3 +33,58 @@ extension Cat {
 //        print("ddd")
 //    }
 //}
+
+
+
+// 这里用面向协议的方式去封装网络请求API
+struct User {
+    init?(data:Data) {
+    }
+}
+protocol Decodable {
+    static func parse(data: Data) -> Self?
+}
+extension User: Decodable {
+    static func parse(data: Data) -> User? {
+        return User(data: data)
+    }
+}
+
+enum HTTPMethod: String {
+    case GET
+    case POST
+}
+
+protocol Request {
+    var path:String {get}
+    var method:HTTPMethod {get}
+    var parameter:[String:Any] {get}
+    associatedtype Response:Decodable
+}
+
+struct UserRequest:Request {
+    var path: String {
+        return "/path"
+    }
+    var method: HTTPMethod = .GET
+    var parameter: [String : Any] = ["":""]
+    typealias Response = User
+}
+
+
+protocol Client {
+    func send<T:Request>(_ r: T, handler: @escaping (T.Response?) -> Void)
+    var host: String {get}
+}
+
+struct LocaleClient:Client {
+    var host: String = "www.baidu.com"
+    func send<T : Request>(_ r: T, handler: @escaping (T.Response?) -> Void) {
+        let url = URL(string: host.appending(r.path))
+        print("发送请求\(url)")
+    }
+}
+
+
+
+
